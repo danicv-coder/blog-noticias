@@ -22,7 +22,7 @@ a{
 }
 
 .header {
-  background: url("/image/baner.jpg");
+  background: url("../image/Control-ps4.jpeg");
   background-position: center;
   background-attachment: contain;
   background-size: cover;
