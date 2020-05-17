@@ -56,6 +56,7 @@ a{
             text-transform: uppercase;
             padding: 0 10px;
             letter-spacing: 2px;
+            font-family: 'Arimo', sans-serif;
         }
             .nav a:hover{
                 color:#343434;
@@ -136,7 +137,7 @@ a{
 
             }
         .navigation{
-         background-color: #000;
+         background-color: rgb(12, 151, 163);
          flex: 1 1 100%;
          margin: 10px 10px 0 0px;
          }
@@ -148,7 +149,7 @@ a{
                 letter-spacing: 2px;
             }
             .navigation a:hover{
-                color: rgb(12, 151, 163);
+                color: #000000;
             }
     .aside{
         /*background-color: #7d5a5a;*/
@@ -161,7 +162,7 @@ a{
         }
 
         h4{
-            background: #000;
+            background: rgb(12, 151, 163);
             color: #fff;
             padding: 10px;
             text-transform: uppercase;
@@ -171,26 +172,33 @@ a{
         }
 
 .footer {
-  background: url("/image/Footer.jpg");
-  display: flex;
-  justify-content: center;
+  background: #000000;
   margin-top: 10px;
   height: 350px;
-
-  
 }
-    .pie{
-        /*background-color: #162447;*/
-       
-        text-align: center;
-        
+    .footerLogo{
+        border-bottom: solid 1px #f7f7f7;
     }
-    .pie h1{
+         .footerLogo img{
+        
+        display: block;
+        margin: auto; 
+        }
+    
+        .redesSociales{
+            display: inline;
+            margin: auto;
+         }
+
+    .footerLogo h1{
         color: #fff;
         font-size: 18px;
         text-transform: uppercase;
         padding: 0 10px;
         letter-spacing: 2px;
+        font-family: 'Arimo', sans-serif;
+        text-align: center;
+        margin-top: 80px;
     }
 
     @media all and (max-width: 1122px){
