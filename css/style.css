@@ -201,6 +201,44 @@ a{
         margin-top: 80px;
     }
 
+    svg{
+        width: 35px;
+        margin-left: 20px;
+        margin-top: 20px;
+        justify-content: center;
+        cursor: pointer;
+        
+    }
+        .icon-facebook{
+            fill: white;
+        }
+        .icon-facebook:hover{
+            fill: #006692;;
+        }
+        .icon-instagram{
+            fill: white;
+        }
+        .icon-instagram:hover{
+            fill: rgb(133, 9, 85);
+        }
+        .icon-twitter{
+            fill: white;
+        }
+        .icon-twitter:hover{
+            fill: #00acee;
+        }
+        .icon-youtube{
+            fill: white;
+        }
+        .icon-youtube:hover{
+            fill: #c4302b;
+        }
+        .icon-snapchat{
+            fill: white;
+        }
+        .icon-snapchat:hover{
+            fill: #FFFC00;
+        }
     @media all and (max-width: 1122px){
         .section{
             flex-direction: column;
