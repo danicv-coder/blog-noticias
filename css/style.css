@@ -213,7 +213,7 @@ a{
             fill: white;
         }
         .icon-facebook:hover{
-            fill: #006692;;
+            fill: #006692;
         }
         .icon-instagram{
             fill: white;
@@ -287,6 +287,10 @@ a{
         }
         h1{
             font-size: 12px;
+        }
+        h2{
+            font-size: 15px;
+            
         }
     }
     
